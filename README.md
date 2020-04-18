@@ -17,13 +17,13 @@ Assuming go was never installed.
 cd ~
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
 tar -xf go1.14.2.linux-amd64.tar.gz
-mv go1.14.2 go1.4
-export PATH="$HOME/goroot/bin:$PATH" 
+mv go go1.4
+export PATH="$HOME/go1.4/bin:$PATH" 
 
 cd ~
 mkdir mygoroot
 cd mygoroot
-git clone git@github.com:hbt/go.git . 
+git clone https://github.com/hbt/go.git .
 cd src
 git checkout hbt
 ./all.bash
