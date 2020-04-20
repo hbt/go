@@ -26,12 +26,13 @@ cd mygoroot
 git clone https://github.com/hbt/go.git .
 cd src
 git checkout hbt
-./all.bash
+./make.bash
 # cancel the testing phase
 
 alias mgo=~/mygoroot/bin/go
 ```
 
+Check Dockerfile
 
 Keep both go version (official and this one). Use this one to speed up your development flow only and not for release.
 Setup pre-commit checks to ensure the right version is used.
