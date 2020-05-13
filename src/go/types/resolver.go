@@ -609,9 +609,9 @@ func (check *Checker) unusedImports() {
 					path := obj.imported.path
 					base := pkgName(path)
 					if obj.name == base {
-						check.softErrorf(obj.pos, "%q imported but not used", path)
+						//check.softErrorf(obj.pos, "%q imported but not used", path)
 					} else {
-						check.softErrorf(obj.pos, "%q imported but not used as %s", path, obj.name)
+						//check.softErrorf(obj.pos, "%q imported but not used as %s", path, obj.name)
 					}
 				}
 			}
