@@ -2,6 +2,11 @@
 
 Disabled "unused imports" and "unused variable" errors during compilation.
 
+## Similar project
+
+uses warnings + flags and keeps up with latest versions of Golang
+
+https://github.com/kstenerud/go/blob/master/README.md
 
 ## Why?
 
